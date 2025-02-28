@@ -7,7 +7,7 @@ description = "serde-metafile"
 repository = "https://github.com/ahaoboy/serde-metafile"
 homepage = "https://github.com/ahaoboy/serde-metafile"
 authors = ["ahaoboy"]
-include = ["/serde-metafile", "/Cargo.toml", "/README.md"]
+include = ["/src", "/Cargo.toml", "/README.md"]
 
 [dependencies]
 path-absolutize = "3"
