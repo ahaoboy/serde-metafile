@@ -1,6 +1,6 @@
 [package]
 name = "serde-metafile"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "MIT"
 description = "serde-metafile"
@@ -10,10 +10,7 @@ authors = ["ahaoboy"]
 include = ["/src", "/Cargo.toml", "/README.md"]
 
 [dependencies]
-path-absolutize = "3"
 serde = { version = "1", features = ["derive"] }
 
 [dev-dependencies]
 serde_json = "1.0"
-walkdir = "2"
-path-absolutize = "3"
